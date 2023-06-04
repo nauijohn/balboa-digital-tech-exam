@@ -1,0 +1,49 @@
+{
+  "name": "balboa-digital-tech-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf build",
+    "start:build": "tsc -w",
+    "start:run": "nodemon ./build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nauijohn/balboa-digital-tech-exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nauijohn/balboa-digital-tech-exam/issues"
+  },
+  "homepage": "https://github.com/nauijohn/balboa-digital-tech-exam#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cookie-session": "^2.0.44",
+    "@types/express": "^4.17.17",
+    "@types/lodash": "^4.14.195",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.0.1",
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mysql2": "^3.3.3",
+    "nodemon": "^2.0.22",
+    "npm-run-all": "^4.1.5",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^5.0.1",
+    "sequelize": "^6.31.1",
+    "sequelize-typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.2.5",
+    "@types/validator": "^13.7.17",
+    "typescript": "^5.0.4"
+  }
+}
